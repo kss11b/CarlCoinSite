@@ -1,8 +1,28 @@
 .parallax-container {
-  height:400px;
+  height:300px !important;
 }
 
 .title-text-carl{
   color: white;
-  font-size: 3em;
+  font-size: 9em;
+  display: inline-block;
+  margin-top: 4%;
+  margin-left: 40%;
+}
+
+.page-background{
+  background:#83D6FD
+}
+
+.category-header{
+  color: white;
+  font-size: 7em;
+}
+
+.icon-card-margin{
+  margin-right: 1em;
+}
+
+.descriptor-font{
+  font-size: 1.4em;
 }
