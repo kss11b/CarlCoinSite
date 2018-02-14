@@ -1,4 +1,4 @@
-.parallax-container {
+.parallax-container-short {
   height:300px !important;
 }
 
@@ -25,4 +25,8 @@
 
 .descriptor-font{
   font-size: 1.4em;
+}
+
+.card-margin{
+   margin-bottom: 50px;
 }
