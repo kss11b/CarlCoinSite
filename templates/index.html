@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="static/styles/index.css">
+<link rel="stylesheet" type="text/css" href="static/styles/animate.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
@@ -30,7 +31,7 @@
 
 
       <div class="col s12 card-margin ">
-        <div class="card blue darken-4">
+        <div class="card blue darken-4 hidden animated" id="info1">
           <div class="card-content white-text">
 
             <p class="descriptor-font"><i class="material-icons icon-card-margin">done</i>CarlCoin is the only cryptocurrency you will ever need
@@ -40,7 +41,7 @@
       </div>
 
       <div class="col s12 card-margin">
-        <div class="card blue darken-4">
+        <div class="card blue darken-4 hidden animated" id="info2">
           <div class="card-content white-text">
 
             <p class="descriptor-font"><i class="material-icons icon-card-margin">all_inclusive</i>It is the most self-sufficient and independent currency to date
@@ -48,6 +49,18 @@
           </div>
         </div>
       </div>
+
+      <div class="col s12 card-margin">
+        <div class="card blue darken-4 hidden animated" id="info3">
+          <div class="card-content white-text">
+
+            <p class="descriptor-font"><i class="material-icons icon-card-margin">attach_money</i>It does not base it's value upon fiat currencies.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
 
     </div>
   </div>
@@ -58,7 +71,7 @@
     <div class="light-blue darken-1 container">
       <p class="category-header col s12"> Steadfast </p>
       <div class="col s12 card-margin">
-        <div class="card blue darken-4">
+        <div class="card blue darken-4 hidden animated" id="info4">
           <div class="card-content white-text">
 
             <p class="descriptor-font"><i class="material-icons icon-card-margin">toll</i>CarlCoin is worth it's weight in gold
@@ -68,7 +81,7 @@
       </div>
 
       <div class="col s12 card-margin">
-        <div class="card blue darken-4">
+        <div class="card blue darken-4 hidden animated" id="info5">
           <div class="card-content white-text">
             <p class="descriptor-font"><i class="material-icons icon-card-margin">arrow_forward</i>It has held it's value against other fad currencies such as Bitcoin and Ethereum </p>
           </div>
@@ -76,7 +89,7 @@
       </div>
 
       <div class="col s12 card-margin">
-        <div class="card blue darken-4">
+        <div class="card blue darken-4 hidden animated" id="info6">
           <div class="card-content white-text">
             <p class="descriptor-font"><i class="material-icons icon-card-margin">change_history</i>It's value has remained constant since it's inception</p>
           </div>
@@ -84,39 +97,55 @@
       </div>
 
     </div>
-    <div class="parallax-container parallax-container-short">
+    <div class="parallax-container parallax-container-short" >
       <div class="parallax"><img src="static/images/cryptoC.jpg"></div>
 
     </div>
   </div>
 
     <div class="light-blue darken-1 container">
-      <p class="category-header col s12"> Steadfast </p>
+      <p class="category-header col s12"> Professional </p>
+
       <div class="col s12 card-margin">
-        <div class="card blue darken-4">
+        <div class="card blue darken-4 hidden animated" id="info7">
           <div class="card-content white-text">
 
-            <p class="descriptor-font"><i class="material-icons icon-card-margin">toll</i>CarlCoin is worth it's weight in gold
+            <p class="descriptor-font"><i class="material-icons icon-card-margin">all_out</i>CarlCoin is a web-scale cryptocurrency
             </p>
           </div>
         </div>
       </div>
 
       <div class="col s12 card-margin">
-        <div class="card blue darken-4">
+        <div class="card blue darken-4 hidden animated" id="info8">
           <div class="card-content white-text">
-            <p class="descriptor-font"><i class="material-icons icon-card-margin">arrow_forward</i>It has held it's value against other fad currencies such as Bitcoin and Ethereum </p>
+            <p class="descriptor-font"><i class="material-icons icon-card-margin">computer</i>It has it's own site with information about the currency</p>
           </div>
         </div>
       </div>
 
       <div class="col s12 card-margin">
-        <div class="card blue darken-4">
+        <div class="card blue darken-4 hidden animated" id="info9">
           <div class="card-content white-text">
-            <p class="descriptor-font"><i class="material-icons icon-card-margin">change_history</i>It's value has remained constant since it's inception</p>
+            <p class="descriptor-font"><i class="material-icons icon-card-margin">show_chart</i>It can be used for not only buying, but also selling</p>
           </div>
         </div>
       </div>
+    </div>
+        <footer class="blue darken-3 page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            *CarlCoin runs on the Ethereum network
+            </div>
+          </div>
+        </footer>
 
 </body>
 </html>

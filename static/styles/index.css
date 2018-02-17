@@ -30,3 +30,7 @@
 .card-margin{
    margin-bottom: 50px;
 }
+
+.hidden{
+  visibility: hidden;
+}
